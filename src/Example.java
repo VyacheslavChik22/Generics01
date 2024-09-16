@@ -9,7 +9,7 @@ public class Example<T> {
         if (this.str.equals("")) {
             this.str = this.str + t.toString();
         } else {
-            this.str = this.str + " - " + t.toString();
+            this.str = this.str + "\n" + t.toString();
 
         }
     }
